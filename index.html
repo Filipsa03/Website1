@@ -3,167 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panele Fotowoltaiczne i Pompy Ciepła - Najlepsze Rozwiązania</title>
+    <title>Football Stars Shop</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background: #F3F3F3;
             color: #333;
         }
-
         header {
-            background-color: #0077b6;
+            background: linear-gradient(90deg, #004C97, #A50044);
             color: white;
-            padding: 20px 0;
+            text-align: center;
+            padding: 20px;
         }
-
-        h1 {
-            border: 2px solid black;
-            padding: 10px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
+        nav {
             display: flex;
             justify-content: center;
-            background-color: #0096c7;
+            background: #FFD700;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-
-        nav ul li {
+        nav a {
             margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: white;
+            color: black;
             text-decoration: none;
             font-weight: bold;
         }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        main {
+        .content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
             padding: 20px;
-            text-align: center;
+            gap: 20px;
         }
-
-        .product {
-            display: inline-block;
-            width: 300px;
-            margin: 20px;
-            padding: 15px;
-            border: 1px solid #ddd;
+        .club-section {
+            width: 45%;
+            border: 1px solid #ccc;
+            padding: 20px;
             border-radius: 10px;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            text-align: left;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-
-        .product h3 {
-            margin-top: 0;
+        .barcelona {
+            border-top: 5px solid #A50044;
         }
-
-        .product p {
-            margin: 5px 0;
+        .madrid {
+            border-top: 5px solid #004C97;
         }
-
+        h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+        .product span {
+            font-weight: bold;
+        }
         footer {
-            background-color: #0077b6;
+            background: #004C97;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            padding: 20px;
             margin-top: 20px;
+        }
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Football Stars Shop</h1>
+    </header>
 
-<header>
-    <h1>Panele Fotowoltaiczne i Pompy Ciepła</h1>
-    <p>Najlepsze produkty od wiodących producentów</p>
-</header>
+    <nav>
+        <a href="#barcelona">FC Barcelona</a>
+        <a href="#madrid">Real Madryt</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
 
-<nav>
-    <ul>
-        <li><a href="#fotowoltaika">Panele Fotowoltaiczne</a></li>
-        <li><a href="#pompy">Pompy Ciepła</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
-    </ul>
-</nav>
+    <div class="content">
+        <div class="club-section barcelona" id="barcelona">
+            <h2>FC Barcelona</h2>
+            <p>FC Barcelona to hiszpański klub piłkarski założony w 1899 roku. Słynie z ofensywnego stylu gry i znanych zawodników, takich jak Lamine Yamal, Robert Lewandowski, Raphinha.Barcelona jest znana z ofensywnego stylu gry, opartego na posiadaniu piłki, krótkich podaniach i płynnej grze zespołowej. Ten styl, rozwinięty przez Johana Cruyffa, został udoskonalony przez Pepa Guardiolę podczas jego pracy jako trenera w latach 2008–2012, co doprowadziło do jednego z najbardziej dominujących okresów w historii futbolu.</p>
+            <h3>Produkty:</h3>
+            <div class="product">
+                <span>Koszulka domowa 2025</span>
+                <span>299 PLN</span>
+            </div>
+            <div class="product">
+                <span>Szalik FC Barcelona</span>
+                <span>79 PLN</span>
+            </div>
+            <div class="product">
+                <span>Czapka zimowa</span>
+                <span>89 PLN</span>
+            </div>
+            <div class="product">
+                <span>Bidon sportowy</span>
+                <span>59 PLN</span>
+            </div>
+            <div class="product">
+                <span>Plecak FC Barcelona</span>
+                <span>199 PLN</span>
+            </div>
+        </div>
 
-<main>
-    <section id="fotowoltaika">
-        <h2>Panele Fotowoltaiczne</h2>
-        <div class="product">
-            <h3>SunPower X-Series</h3>
-            <p>Model: X22-370</p>
-            <p>Moc: 370 W</p>
-            <p>Cena: 1 500 PLN za sztukę</p>
+        <div class="club-section madrid" id="madrid">
+            <h2>Real Madryt</h2>
+            <p>Real Madryt Club de Fútbol, znany jako Real Madryt, to jeden z najbardziej utytułowanych i prestiżowych klubów piłkarskich na świecie. Założony 6 marca 1902 roku, klub przez lata wypracował sobie pozycję ikony światowego futbolu. „Królewscy”, jak są nazywani, są znani z klasy i elegancji, zarówno na boisku, jak i poza nim.</p>
+            <h3>Produkty:</h3>
+            <div class="product">
+                <span>Koszulka wyjazdowa 2025</span>
+                <span>299 PLN</span>
+            </div>
+            <div class="product">
+                <span>Szalik Real Madryt</span>
+                <span>79 PLN</span>
+            </div>
+            <div class="product">
+                <span>Czapka zimowa</span>
+                <span>89 PLN</span>
+            </div>
+            <div class="product">
+                <span>Bidon sportowy</span>
+                <span>59 PLN</span>
+            </div>
+            <div class="product">
+                <span>Plecak Real Madryt</span>
+                <span>199 PLN</span>
+            </div>
         </div>
-        <div class="product">
-            <h3>LG NeON R</h3>
-            <p>Model: LG360Q1C-A5</p>
-            <p>Moc: 360 W</p>
-            <p>Cena: 1 400 PLN za sztukę</p>
-        </div>
-        <div class="product">
-            <h3>Q.Cells Q.Peak Duo</h3>
-            <p>Model: Q.Peak Duo-G9</p>
-            <p>Moc: 345 W</p>
-            <p>Cena: 1 300 PLN za sztukę</p>
-        </div>
-        <div class="product">
-            <h3>Trina Solar Vertex</h3>
-            <p>Model: TSM-DE19</p>
-            <p>Moc: 400 W</p>
-            <p>Cena: 1 600 PLN za sztukę</p>
-        </div>
-    </section>
+    </div>
 
-    <section id="pompy">
-        <h2>Pompy Ciepła</h2>
-        <div class="product">
-            <h3>Daikin Altherma</h3>
-            <p>Model: EHBX08E6V</p>
-            <p>Moc: 8 kW</p>
-            <p>Cena: 25 000 PLN</p>
-        </div>
-        <div class="product">
-            <h3>Viessmann Vitocal</h3>
-            <p>Model: Vitocal 200-S</p>
-            <p>Moc: 10 kW</p>
-            <p>Cena: 30 000 PLN</p>
-        </div>
-        <div class="product">
-            <h3>Panasonic Aquarea</h3>
-            <p>Model: WH-UX09HE5</p>
-            <p>Moc: 9 kW</p>
-            <p>Cena: 28 000 PLN</p>
-        </div>
-        <div class="product">
-            <h3>NIBE F2120</h3>
-            <p>Model: F2120-12</p>
-            <p>Moc: 12 kW</p>
-            <p>Cena: 32 000 PLN</p>
-        </div>
-    </section>
-
-    <section id="kontakt">
+    <footer id="kontakt">
         <h2>Kontakt</h2>
-        <p>Masz pytania? Skontaktuj się z nami:</p>
-        <p><strong>Email:</strong> kontakt@energy-expert.pl</p>
-        <p><strong>Telefon:</strong> +48 123 456 789</p>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2025 Energy Expert. Wszystkie prawa zastrzeżone.</p>
-</footer>
-
+        <p>Jeśli masz pytania, skontaktuj się z nami:</p>
+        <p>Email: support@footballstarsshop.com</p>
+        <p>Telefon: +48 123 456 789</p>
+        <p>Odwiedź nasz profil na <a href="https://www.facebook.com/footballstarsshop">Facebooku</a></p>
+    </footer>
 </body>
 </html>
+
